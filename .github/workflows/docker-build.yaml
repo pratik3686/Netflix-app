@@ -24,6 +24,6 @@ jobs:
          image: netflix
          tags: 0.0.1
          registry: ghcr.io
-         dockerfile: DevSecOps-Project/Dockerfile
+         dockerfile: Dockerfile
          username: ${{ secrets.DOCKER_USERNAME }}
          password: ${{ secrets.DOCKER_PASSWORD }}            
