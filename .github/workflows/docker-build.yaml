@@ -26,4 +26,5 @@ jobs:
          registry: ghcr.io
          dockerfile: Dockerfile
          username: ${{ secrets.DOCKER_USERNAME }}
-         password: ${{ secrets.DOCKER_PASSWORD }}            
+         password: ${{ secrets.DOCKER_PASSWORD }}
+         buildArgs: TMDB_V3_API_KEY="eadedb3d0cfb67c8c01b21c6e597121f"           
