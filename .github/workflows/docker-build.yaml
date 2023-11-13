@@ -22,7 +22,7 @@ jobs:
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
          image: netflix
-         tags: 0.0.3
+         tags: 0.0.4
          registry: ghcr.io
          dockerfile: Dockerfile
          username: ${{ secrets.DOCKER_USERNAME }}
